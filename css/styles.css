@@ -152,6 +152,11 @@ color: #fbfbfb;
 
 }
 
+.btn-cv:hover{
+
+    background-color: rgb(105, 56, 81);
+    transition: 0.3s;
+}
 /*seccion  hablemos*/
 #contacto{min-height: 100vh;}
 
@@ -205,16 +210,22 @@ padding: 25px; }
 
 /*Dektop*/
 @media(min-width:1024px){
-
+   
     
     
     #inicio{
         flex-direction: row; 
     }
 
+    h1{
+        font-size: 48px;
+        text-align: left;
+    }
+
     .presentacion{
-    text-align: left;
-    margin: 60px; 
+         text-align: left;
+         width: 50%;
+    
     }
         
     body{
@@ -222,12 +233,10 @@ padding: 25px; }
        width: 100%; 
     }
     
-    h1{
-        font-size: 48px
-    }
-    h2{
-        font-size: 32px;
-    }
+   .presentacion p{
+    text-align: left;
+   }
+    
     
     #contacto{
         flex-direction: column;
