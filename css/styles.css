@@ -115,6 +115,7 @@ margin: 16px;
 .menu li a{padding: 16px; 
 }
 
+
 /*section*/
 
 section{display: flex;
@@ -241,12 +242,14 @@ padding: 25px; }
     #contacto{
         flex-direction: column;
         width: 850px;
-        margin:auto
+        margin:auto  
         
-        
-        
+ 
     }
-} 
+   .menu-item a:hover {
+    background-color: #bb3cb0
+  }
+ }
 
 
 
