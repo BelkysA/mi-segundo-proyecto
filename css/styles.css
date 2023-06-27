@@ -186,16 +186,22 @@ color: #fbfbfb;
 }
  
 .icono1{margin-right: 100px;
-    width: 100%;   
- }
+    width: 100%;    width: 40px;
+    height: 40px;
+} 
+ 
     
 .icono2{align-items: center;
-    width: 100%;      
-}
+    width: 100%;    width: 40px;
+    height: 40px;
+}   
+
 
 .icono3{margin-left: 100px;
-    width: 100%;    
+    width: 100%;     width: 40px;
+    height: 40px;
 }
+ 
 
 /* estilo footer*/
 
@@ -205,7 +211,6 @@ color: #fbfbfb;
     font-weight: 600;
 background-color: #a87578  ;
 color: #f3e1e1;
- ;
 padding: 25px; }
 
 
@@ -249,6 +254,13 @@ padding: 25px; }
    .menu-item a:hover {
     background-color: #bb3cb0
   }
+
+ .icono1,
+ .icono2,
+ .icono3 {
+    width: 90px; 
+    height: 90px;
+ }
  }
 
 
